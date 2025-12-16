@@ -15,7 +15,7 @@ A Java application demonstrating core **OOP** concepts (Polymorphism, Inheritanc
 
 ## 📸 Project Screenshot
 
-![GUI Screenshot](screenshot.png)
+![GUI Screenshot](https://github.com/MarcelinoWaheed/OOP-Project/blob/b9a70b0abdda072e6148ecfbbad33d6c16a7da02/The%20Codes/screenshot.png)
 
 ## 🛠️ Project Structure
 

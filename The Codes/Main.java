@@ -23,7 +23,13 @@ public class Main {
             Scanner scanner = new Scanner(inputFile);
 
             if (scanner.hasNextInt()) {
+
                 int size = scanner.nextInt();
+                if(size<2)
+                {
+                    System.out.println("The minimum size is 2");
+                    return;
+                }
 
                 shapes = new Drawable[size];
                 int index = 0;
@@ -47,6 +53,10 @@ public class Main {
                 }
                 scanner.close();
                 System.out.println("File read successfully.");
+            }
+            else
+            {
+                System.out.println("Error : There is NO number of arrays");
             }
         } catch (FileNotFoundException e) {
             System.out.println("File Error: " + e.getMessage());
